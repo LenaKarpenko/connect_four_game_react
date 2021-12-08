@@ -1,9 +1,10 @@
 import './index.css';
+import PlayingField from "../PlayingField";
 
 function App() {
   return (
     <div>
-      Connect four game
+      <PlayingField/>
     </div>
   );
 }
